@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 480px;
+    height: 150px;
+    margin: 0 auto;
+    position: fixed;
+    left: 800px;
+
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #840037;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #BD0034;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #FDB731;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+
+.menu{
+
+}
+.menu p {
+	font-family: Bahnschrift SemiBold;
+	font-size: 150%;
+	color: white;
+}
+
+.menu a{
+    font-family: Bahnschrift SemiBold;
+	font-size: 130%
+}
+
+.menu h3{
+	text-decoration: none;
+}
+
+a:active {
+    color:#7EBBC8;
+}
+a:visited {
+    color:#7EBBC8;
+}
+
+.caja-menu{
+  position: relative;
+  right: 10px;
+}
+
+.regreso{
+  position: fixed;
+  right: 110px;
+  top: 160px;
+
+}
+
+.platillo-1{
+  font-family: Berlin Sans FB;
+  font-size: 30px;
+}
+
+.platillo-2{
+  font-family: Berlin Sans FB;
+  font-size: 30px;
+}
